@@ -4,9 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BEM Training</title>
 </head>
 <body>
-    
+    <header id="header">
+        <div class="header__container">
+            <img class="logo" src="./images/logo.svg" alt="logo">
+            <nav>
+               <ul class="nav__liks">
+                <li><a  class="active"href="#">HOME</a></li>
+                <li><a href="#">DECKING</a></li>
+                <li><a href="#">FENCING</a></li>
+                <li><a href="#">FRAMING</a></li>
+                <li><a href="#">RETAINING</a></li>
+                <li><a href="#">PANEL</a></li>
+                <li><a href="#">FLOORING</a></li>
+                <li><a href="#">HARDWARE</a></li>
+                <li><a href="#">CONCRETE</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
+               </ul>
+            </nav>
+            <div>
+                <a href=""><img src="./images/search.svg" alt=""></a>
+                <a href=""><img src="./images/user.svg" alt=""></a>
+                <a href=""><img src="./images/cart.svg" alt=""></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="main__banner">
+            <div class="main__banner-container">
+                <div class="main__banner-heading-container">
+                    <h1 class="main__banner-heading">QUALITY TIMBER IN <br> AUCKLAND <br> LOWER PRICES</h1>
+                    <p class="main__banner-description">Welcome to Timber Dealers – a small, independent, family-owned and operated timber supplier in Auckland (East Tamaki), committed to bringing you quality timber at lower prices!</p>
+                    <div class="main_banner-line">
+                        <div class="main_banner-line2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services__section">
+            <div class="services__container">
+                <div class="service__icon">
+                    <div>
+                        <img src="./images/tools.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="services__title">BUILDING MATERIALS</h3>
+                    </div>
+                </div>
+                <div class="service__icon">
+                    <div>
+                        <img src="./images/flooring.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="services__title">BUILDING MATERIALS</h3>
+                    </div>
+                </div>
+                <div class="service__icon">
+                    <div>
+                        <img src="./images/decking.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="services__title">BUILDING MATERIALS</h3>
+                    </div>
+                </div>
+                <div class="service__icon">
+                    <div>
+                        <img src="./images/fencing.svg" alt="">
+                    </div>
+                    <div>
+                        <h3 class="services__title">BUILDING MATERIALS</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="enquire__section">
+            <div class="enquire__container">
+                <div class="enquire__trade-container">
+                    <img src="./images/trade.svg" alt="">
+                </div>
+                <div class="enquire__now-container">
+                    <div class="enquire__inner-container">
+                        <h2 class="enquire__heading">Decking Timber <br>
+                            in Aukland</h2>
+                            <button class="enquire__btn">ENQUIRE NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>

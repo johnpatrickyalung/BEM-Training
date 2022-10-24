@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+ul, a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.nav__liks li{
+    display: inline-block;
+    padding:0 16px;
+    font-size: 16px;
+}
+#header{
+    background-color: #292733;
+}
+.header__container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 19px;
+    padding-top: 20px;
+}
+.active{
+    color:#C20502;
+}
+.nav__liks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 96.32px;
+}
+/* banner section */
+
+#main__banner{
+    background-image: url('./images/banner-img.png');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    background-color: #999;
+    height: 100vh;
+}
+.main__banner-container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+    padding-bottom: 89px;
+    padding-top: 207px;
+}
+
+.main__banner-heading-container{
+    font-family: Roboto Slab;
+    font-weight: 700;
+    height: auto;
+    width: 50%;
+    left: 0px;
+    top: 0px;
+    text-align: right;    
+}
+.main__banner-heading{
+    font-size: 49px;
+    font-family: 'Roboto Slab', serif;
+}
+.main__banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 195px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main_banner-line{
+    height: 5px;
+    width: 30%;
+    background-color: #B26F7E;
+    float: right;
+    position: relative;
+}
+.main_banner-line2{
+    height: 5px;
+    z-index: 1;
+    position: absolute;
+    width: 30%;
+    background-color:  #C20502;
+    float: right;
+}
+/* services section */
+.services__section{
+    background: #C20502;
+    padding-top: 54px;
+    padding-bottom: 62px;
+}
+.services__container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+h3.services__title {
+    width: 170px;
+    color: white;
+    margin-top: 13px;
+    font-family: 'Roboto Slab', serif;
+
+}
+/* services section */
+.enquire__section{
+    /* background: #C20502; */
+    /* padding-top: 54px;
+    padding-bottom: 62px; */
+}
+.enquire__container{
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.enquire__trade-container{
+    width: 40%;
+    background-image: url('./images/wood1.png');
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    background-color: #999;
+    padding: 101px 0;
+}
+.enquire__now-container{
+    width: 60%;
+    background-image: url(./images/wood2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.enquire__heading{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    margin-bottom: 11px;
+}
+.enquire__btn{
+    height: 64px;
+    width: 191px;
+    left: 83.5px;
+    top: 91px;
+    border-radius: 0px;
+    /* padding: 20px 40px 20px 40px; */
+    background: #C20502;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.enquire__inner-container{
+
+}
